@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;600;700&display=swap');
+/*  font-family: 'Libre Franklin', sans-serif;         */
+
+/* icons */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.material-symbols-outlined {
+    position: relative;
+    top: 5px;
+    right: 5px;
+}
+.material-symbols-outlined {
+    color:#d2be0e!important
+}
+
+.reachMe {
+    align-content: center;
+}
+
+#addMe {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+.addMe {
+    margin: auto;
+    padding-bottom: 8px;
+    color:#d2be0e!important
+}
+
+.marg-right {
+    margin-right: 16px!important;
+}
+.marg-top {
+    margin-top:16px!important;
+}
+.marg-bottom {
+    margin-bottom:16px!important
+}
+
+.name {
+    color:#ffffff!important
+}
+.darkTeal {
+    color:#003a35!important
+}
+
+.container {
+    padding:0.01em 16px
+}
+
+.center {
+    text-align:center!important;
+}
+
+.round-xlarge {
+    border-radius:16px
+}
+
+html {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 300;
+    /*    color:#d2be0e!important   */
+}
+h2, h3, h4, h5, h6 {
+    color:#000000!important
+}
+/*
+.background {
+    background-color:#003a35!important
+}   */
+
+.wholePage {
+    margin-left:auto;
+    margin-right:auto;
+}
+.wholePage {
+    max-width: 1400px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.grid:after,.grid:before {
+    content:"";
+    display:table;
+    clear:both;
+}
+.grid, .grid>.leftCol, .grid>.rightCol {
+    padding: 0 8px;
+}
+
+.leftCol {
+    float: left;
+    width: 100%;
+}
+.leftCol {
+    width: 33.33333%;
+}
+
+#leftCard {
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 5px;
+}
+
+#photoCont {
+    position:relative
+}
+
+#name {
+    position:absolute;left:0;bottom:0
+}
+#name {
+    color:#ffffff!important
+}
+
+.navi {
+    font-size:18px!important
+}
+
+.rightCol {
+    float: left;
+    width: 100%;
+}
+.rightCol {
+    width: 66.66666%;
+}
+
+.card {
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    padding: auto;
+    border-radius: 5px;
+}
+
+.cardHead {
+    padding-top:16px!important;
+    padding-bottom:16px!important
+}
+
+.job {
+    padding:0.01em 16px
+}
+
+.skillsBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.skills {
+    float: left;
+    width: 100%;
+}
+.skills {
+    width: 33%;
+}
+
+.photoBox {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.photos {
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    border-radius: 15px;
+    object-fit: contain;
+}
+
+.editBox {
+    display: flexbox;
+}
+
+.headshot {
+    border-radius: 5px;
+}
